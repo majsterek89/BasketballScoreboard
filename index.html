@@ -1,0 +1,56 @@
+<html>
+    <head><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+        
+        <link rel="stylesheet" href="index.css">
+        
+        
+    </head>
+    
+    <body>
+        <div class="container">
+            <div>
+            <h3>HOME</h3>
+                <h2 id="home-score">0</h2>
+                <button id="home-btn" onclick="homeIncrement()">+1</button>
+                <button id="home-btn" onclick="homeIncrement2()">+2</button>
+                <button id="home-btn" onclick="homeIncrement3()">+3</button>
+            </div>  
+            
+            <div id="setScoreWin">
+                <h3>SET POINTS TO WIN:</h3>
+                <div id="buttonsSetPoints">
+                <button id="SetscoreWin-btn" onclick="IncrementScoreWin()">+1</button>
+                <button id="SetscoreWinDecrements-btn" onclick="DecrementScoreWin()">-1</button>
+                </div>
+                <h2 id="scoreWinSet">0</h2>
+            </div>
+            
+            
+             <div>
+                <h3>GUEST</h3>
+                <h2 id="guest-score">0</h2>
+                <button id="guest-btn" onclick="guestIncrement()">+1</button>
+                <button id="guest-btn" onclick="guestIncrement2()">+2</button>
+                <button id="guest-btn" onclick="guestIncrement3()">+3</button>
+                
+            </div>
+            
+          
+        </div>
+        
+          <div class="ActualLeader">
+            <h3>CURRENTLY LEADER IS: <span id="Actualleader"></span></h3>
+            </div> 
+            
+             <div class="Leader">
+            <h3>WIN IS: <span id="leader"></span></h3>
+            </div>
+            
+             <div class="NewGame">
+            <button id="NewGame-btn" onclick="resetScore()">NEW GAME</button>
+            </div>
+            
+     
+        <script src="index.js"></script>
+    </body>
+</html>

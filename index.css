@@ -1,0 +1,135 @@
+@font-face {
+  font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+
+
+body {
+    margin: 0;
+    background: #1F2937;
+}
+
+.container {
+    
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row; 
+    
+}
+
+.NewGame{
+    margin:20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+h3{
+    color: white;
+    font-size:40px;
+    margin:50px 20px;
+
+}
+
+#home-score{
+    background: black;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 50px;
+    margin: 25px -25px;
+    padding:0 85px;
+}
+
+
+#guest-score{
+    background: black;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 50px;
+    margin: 25px -22px;
+    padding:0 85px;
+}
+#home-btn{
+    background: #1F2937;
+    border: #9AABD8 solid 1px;
+    color: #9AABD8;
+    font-size: 27px;
+    text-align: center;
+    padding:5px 10px;
+
+    
+    font-family: 'Cursed Timer ULiL',monospace;
+    
+    
+  
+}
+
+#guest-btn{
+    background: #1F2937;
+    border: #9AABD8 solid 1px;
+    color: #9AABD8;
+    font-size: 27px;
+    text-align: center;
+    padding:5px 10px;
+    font-family: 'Cursed Timer ULiL',monospace;
+  
+}
+
+
+#NewGame-btn{
+        background: #1F2937;
+    border: #9AABD8 solid 1px;
+    color: #9AABD8;
+    font-size: 27px;
+    text-align: center;
+    padding:5px 10px;
+    font-family: 'Cursed Timer ULiL',monospace;
+}
+
+.ActualLeader{
+    margin:20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+.Leader{
+    margin:20px 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+#SetscoreWin-btn{
+    background: #1F2937;
+    border: #9AABD8 solid 1px;
+    color: #9AABD8;
+    font-size: 27px;
+    text-align: center;
+    padding:5px 10px;
+    margin: 0px 70px;
+    font-family: 'Cursed Timer ULiL',monospace;
+}
+
+#scoreWinSet{
+    background: black;
+    font-size: 90px;
+    color: #F94F6D;
+    width: 10px;
+    margin: 0 100px;
+    padding:0px 140px 0px 73px;
+}
+
+#SetscoreWinDecrements-btn{
+    background: #1F2937;
+    border: #9AABD8 solid 1px;
+    color: #9AABD8;
+    font-size: 27px;
+    text-align: center;
+    padding:5px 10px;
+    margin:20px -40px;
+    font-family: 'Cursed Timer ULiL',monospace;
+}
+
+#buttonsSetPoints{
+    margin: -50px 20px 10px 70px;
+}
